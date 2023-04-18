@@ -14,7 +14,8 @@ def generate_and_save_image(api, prompt, cfg_scale, noImage):
         sampler=sampler,
         width=width,
         height=height,
-        cfg_scale=cfg_scale
+        cfg_scale=cfg_scale,
+        samples = noImage
     )
 
     for resp in answer:
