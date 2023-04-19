@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Soundscaping into Art</title>
+
+        <!-- Importing CSS files -->
+        <link href="{{ url_for('static', filename = 'css/index.css') }}" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav>
+              <ul>
+                <div class="selectedLink">
+                  <div class="side left"></div>
+                  <div class="side right"></div>
+                  <div class="outside left"></div>
+                  <div class="outside right"></div>
+                  <div class="dot"></div>
+                </div>
+                <li data-active="true"><a href="/">Home</a></li>
+                <li data-active="false"><a href="/about">About</a></li>
+                <li data-active="false"><a href="/contact">Contact</a></li>
+              </ul>
+            </nav>
+
+          </header>
+
+          <script src="{{url_for('static', filename='js/index.js')}}"></script>
+    </body>
+</html>
