@@ -36,10 +36,10 @@
     
             <nav id="navbar" class="navbar">
               <ul>
-                <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                <li><a class="nav-link scrollto active" href="/">Home</a></li>
                 <li><a class="nav-link scrollto" href="/about">About</a></li>
                 <li><a class="nav-link scrollto" href="/contact">Contact</a></li>
-                <li><a class="getstarted scrollto" href="#generate">Generate</a></li>
+                <li><a class="getstarted scrollto" href="/">Generate</a></li>
               </ul>
               <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->
@@ -72,30 +72,6 @@
 
   </section><!-- End Hero -->
 
-  <section id="generate" class="hero d-flex align-items-center flex-column">
-    <div class="container">
-        <div class="row ">
-            <div class="col-md-8">
-                <img src="https://picsum.photos/800/800/?blur=2" alt="">
-            </div>
-            <div class="col-md-4 align-items-center">
-                <center>
-                    <h2>Upload your <span style="color: #00cc95;">.wav</span> file.</h2><br><br>
-                </center>
-                <!-- <center> -->
-                <form action="{{ url_for('result') }}" method="POST" enctype="multipart/form-data">
-                    <input class="form-control" type="file" name="rawAudio" enctype="multipart/form-data" /><br>
-                    <input class="btn form-control" type="submit" /><br><br>
-                </form>
-                <center>
-                    <h1>Audio Reimagined</h1>
-                </center>
-                    <img src="{{ url_for('static', filename = 'images/image.png') }}" width = "420px"alt="" />
-                <!-- </center> -->
-            </div>
-        </div>
-    </div>
-  </section>
 
     <!-- ======= Footer ======= -->
     <footer id="footer" class="footer">    
@@ -119,9 +95,9 @@
               <div class="col-lg-2 col-6 footer-links">
                 <h4>Useful Links</h4>
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <a href="#hero">Home</a></li>
-                  <li><i class="bi bi-chevron-right"></i> <a href="#about">About us</a></li>
-                  <li><i class="bi bi-chevron-right"></i> <a href="#generate">Generate</a></li>
+                  <li><i class="bi bi-chevron-right"></i> <a href="/">Home</a></li>
+                  <li><i class="bi bi-chevron-right"></i> <a href="/about">About us</a></li>
+                  <li><i class="bi bi-chevron-right"></i> <a href="/#generate">Generate</a></li>
                   <li><i class="bi bi-chevron-right"></i> <a href="https://stability.ai/">Stability.AI</a></li>
                 </ul>
               </div>
