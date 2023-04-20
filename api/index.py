@@ -1,5 +1,6 @@
 import os
 from stability_sdk import client
+from programs.prompt import randomPrompt
 from flask import Flask, render_template, request
 from programs.generateandSaveImage import generate_and_save_image
 from programs.classifySound import extract_feature_and_print_prediction
@@ -32,7 +33,9 @@ def result():
             engine="stable-diffusion-xl-beta-v2-2-2", 
         )
 
-        if generate_and_save_image(stability_api, pred, path = 'static/images//'):
+        prompt = randomPrompt(pred)
+
+        if generate_and_save_image(stability_api, prompt, path = 'static/images//'):
             return render_template('index.html')
 
 

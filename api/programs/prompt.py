@@ -1,4 +1,3 @@
-from SoundClassification import extract_feature_and_print_prediction
 import random
 
 air_conditioner = ["Amidst a scorching heatwave, an air conditioner stands tall like a beacon of hope. Its cool breeze offers respite to anyone seeking refuge from the sweltering heat. In this dreamlike painting, capture the air conditioner as an oasis of coolness, surrounded by shimmering heatwaves that distort reality. Let your imagination run wild and infuse the scene with a sense of tranquility, as if the air conditioner is a magical portal to a world of eternal coolness.",
@@ -51,12 +50,24 @@ street_music = ["Paint a picture that captures the vibrant energy and joy of str
                 "Paint a picture that captures the vibrant energy of street music? The painting should depict a street musician or group of musicians playing their instruments in a public space, perhaps in a bustling city square or on a charming cobblestone street. The colors should be warm and inviting, with a sense of joy and celebration emanating from the music. The scene should capture the diverse crowd of people stopping to listen and dance to the music, with perhaps a few local vendors or performers adding to the festive atmosphere. The painting should convey a sense of community and togetherness, with the power of music bringing people from all walks of life together in a shared experience of joy and beauty.",
                 "Paint a picture of a street musician playing music, with a sense of joy and celebration? The musician could be playing any type of instrument, perhaps a guitar, a saxophone, or a violin. The painting should depict a lively scene, with people stopping to listen and perhaps dancing along to the music. The colors should be warm and inviting, with perhaps a hint of dusk or sunset in the background, conveying the sense of a vibrant street scene. The painting should capture the energy and spontaneity of street music, and the sense of community that can be built around shared experiences of music and culture."]
 
-print(random.choice(air_conditioner))
-print(random.choice(children_playing))
-print(random.choice(dog_bark))
-print(random.choice(drilling))
-print(random.choice(engine_idling))
-print(random.choice(gun_shot))
-print(random.choice(jackhammer))
-print(random.choice(siren))
-print(random.choice(street_music))
+def randomPrompt(var):
+    if var == 'air_conditioner':
+        return random.choice(air_conditioner)
+    elif var == 'children_playing':
+        return random.choice(children_playing)
+    elif var == 'car_horn':
+        return random.choice(car_horn)
+    elif var == 'dog_bark':
+        return random.choice(dog_bark)
+    elif var == 'drilling':
+        return random.choice(drilling)
+    elif var == 'engine_idling':
+        return random.choice(engine_idling)
+    elif var == 'gun_shot':
+        return random.choice(gun_shot)
+    elif var == 'jackhammer':
+        return random.choice(jackhammer)
+    elif var == 'siren':
+        return random.choice(siren)
+    elif var == 'street_music':
+        return random.choice(street_music)
