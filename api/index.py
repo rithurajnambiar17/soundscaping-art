@@ -9,6 +9,7 @@ app.config['UPLOAD_FOLDER'] = app.config['UPLOAD_FOLDER'] = 'static'
 
 @app.route('/')
 def index():
+    
     return render_template('index.html')
 
 @app.route('/result', methods= ['POST', 'GET'])
@@ -34,5 +35,5 @@ def result():
 
         generate_and_save_image(stability_api, pred, path = app.config['UPLOAD_FOLDER'] + '/images/')
 
-if __name__ == '__main__':
-    app.run(debug=True)
+# if __name__ == '__main__':
+#     app.run(debug=True)
