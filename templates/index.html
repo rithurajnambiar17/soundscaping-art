@@ -38,28 +38,8 @@
               <ul>
                 <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
                 <li><a class="nav-link scrollto" href="#about">About</a></li>
-                <li><a class="nav-link scrollto" href="#services">Services</a></li>
-                <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
-                <li><a class="nav-link scrollto" href="#team">Team</a></li>
-                <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-                  <ul>
-                    <li><a href="#">Drop Down 1</a></li>
-                    <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                      <ul>
-                        <li><a href="#">Deep Drop Down 1</a></li>
-                        <li><a href="#">Deep Drop Down 2</a></li>
-                        <li><a href="#">Deep Drop Down 3</a></li>
-                        <li><a href="#">Deep Drop Down 4</a></li>
-                        <li><a href="#">Deep Drop Down 5</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="#">Drop Down 2</a></li>
-                    <li><a href="#">Drop Down 3</a></li>
-                    <li><a href="#">Drop Down 4</a></li>
-                  </ul>
-                </li>
                 <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-                <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+                <li><a class="getstarted scrollto" href="#about">Generate</a></li>
               </ul>
               <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->
@@ -67,50 +47,56 @@
           </div><!-- End Header Container -->
         </div>
       </header>
-
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="hero">
+  <section id="hero" class="hero d-flex align-items-center">
 
-    <div class="info d-flex align-items-center">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-6 text-center">
-            <h2 data-aos="fade-down">Soundscaping the art <span class="dot">.</span></h2>
-            <!-- <p data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
-            <a data-aos="fade-up" data-aos-delay="200" href="#get-started" class="btn-get-started">Get Started</a>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center">
+          <h1 data-aos="fade-up">Soundscaping the Art <span>.</span></h1>
+          <h2 data-aos="fade-up" data-aos-delay="400">Giving visuals to audio.</h2>
+          <div data-aos="fade-up" data-aos-delay="600">
+            <div class="text-center text-lg-start">
+              <a href="#generate" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                <span>Generate</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
           </div>
+        </div>
+        <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
+          <img src="{{ url_for('static', filename='images/generate.png') }}" class="img-fluid" alt="">
         </div>
       </div>
     </div>
 
-    <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+  </section><!-- End Hero -->
 
-      <div class="carousel-item active" style="background-image: url(assets/img/hero-carousel/hero-carousel-1.jpg)"></div>
-      <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/hero-carousel-2.jpg)"></div>
-      <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/hero-carousel-3.jpg)"></div>
-      <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/hero-carousel-4.jpg)"></div>
-      <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/hero-carousel-5.jpg)"></div>
-
-      <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-      </a>
-
-      <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
-        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-      </a>
-
+  <section id="generate" class="hero d-flex align-items-center flex-column">
+    <div class="container">
+        <div class="row ">
+            <div class="col-md-8">
+                <img src="https://picsum.photos/800/800/?blur=2" alt="">
+            </div>
+            <div class="col-md-4 align-items-center">
+                <center>
+                    <h2>Upload your <span style="color: #00cc95;">.wav</span> file.</h2><br><br>
+                </center>
+                <!-- <center> -->
+                <form action="{{ url_for('result') }}" method="POST" enctype="multipart/form-data">
+                    <input class="form-control" type="file" name="rawAudio" enctype="multipart/form-data" /><br>
+                    <input class="btn form-control" type="submit" /><br><br>
+                </form>
+                <center>
+                    <h1>Audio Reimagined</h1>
+                </center>
+                    <img src="{{ url_for('static', filename = 'images/image.png') }}" width = "420px"alt="" />
+                <!-- </center> -->
+            </div>
+        </div>
     </div>
+  </section>
 
-  </section><!-- End Hero Section -->
-
-    <form action="{{ url_for('result') }}" method="POST" enctype="multipart/form-data">
-        <input type="file" name="rawAudio" enctype="multipart/form-data" />
-        <input type="submit" />
-    </form>
-    <center>
-        <h1>Images</h1>
-        <img src="{{ url_for('static', filename = 'images/image.png') }}" alt="" />
-    </center>
 </body>
 
 </html>
