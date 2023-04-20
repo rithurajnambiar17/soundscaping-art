@@ -54,7 +54,6 @@ def extract_feature_and_print_prediction(file_name):
     pred_fea = np.array([scaled])
     pred_vector = np.argmax(modelFile.predict(pred_fea),axis=-1)
     pred_class = encoder.inverse_transform(pred_vector)
-    # print("The Predicted class is:", pred_class[0], '\n')
     return pred_class[0]
 
 air_conditioner = ["Amidst a scorching heatwave, an air conditioner stands tall like a beacon of hope. Its cool breeze offers respite to anyone seeking refuge from the sweltering heat. In this dreamlike painting, capture the air conditioner as an oasis of coolness, surrounded by shimmering heatwaves that distort reality. Let your imagination run wild and infuse the scene with a sense of tranquility, as if the air conditioner is a magical portal to a world of eternal coolness.",
