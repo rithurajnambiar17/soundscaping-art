@@ -25,7 +25,7 @@ def generate_and_save_image(api, prompt, path, cfg_scale=8.0, noImage=1):
                 )
             if artifact.type == generation.ARTIFACT_IMAGE:
                 img = Image.open(io.BytesIO(artifact.binary))
-                img.save(str(prompt) + ".png")
+                img.save(path + "image.png")
                 return True
             else:
                 return False
