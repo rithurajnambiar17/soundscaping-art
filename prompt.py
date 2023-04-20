@@ -21,35 +21,35 @@ dog_bark = ["Paint a lively scene of dogs barking in a park? The painting should
             "Paint a picture of a pack of playful dogs barking joyously in a grassy field. The scene should be full of energy and movement, with the dogs leaping and bounding through the field as they bark and play. The colors should be vibrant and lively, with the green grass contrasting with the bright and varied fur of the dogs. The painting should capture the joy and excitement of these lovable animals, and convey a sense of their unique personalities and characteristics through their playful barking",
             "Paint a picture of a group of dogs barking excitedly in a park or open field? The dogs should be a mix of breeds and sizes, all with their tongues lolling out and their tails wagging. The background should be lush and green, with perhaps a few trees or flowers in the distance. The dogs should be the main focus of the painting, with their barks conveyed through dynamic brushstrokes and vivid colors. The overall effect should be one of joy and playfulness, capturing the exuberance and energy of our furry friends."]
 
-drilling = ["",
-            "",
-            "",
-            ""]
+drilling = ["Paint a picture of the action of drilling, perhaps in an industrial setting? The painting should convey a sense of power and precision, with the drill bit digging into metal or concrete with force. The colors should be cool and metallic, with shades of silver, grey, and black dominating the palette. You could include workers or machinery in the painting to add to the sense of activity and industry, and the background could be a gritty, urban landscape. Overall, the painting should capture the intensity and skill required for the task of drilling.",
+            "Paint a picture of a worker drilling into a hard surface, like concrete or metal? The worker should be depicted in motion, with the drill held firmly in their hand and the tool emitting sparks or dust as it bores into the surface. The setting should be a construction site or workshop, with other tools and machinery visible in the background. The colors should be bold and industrial, with shades of gray, silver, and yellow dominating the painting. The overall effect should convey the power and precision of the drilling process, capturing the raw energy and force of the worker and the machine",
+            "Paint a picture of a worker operating a large drill in an industrial setting? The focus should be on the action of drilling itself, with the worker depicted in the midst of the process. The painting should convey a sense of power and force, with the drill cutting through a solid surface and throwing up sparks or dust. The background should be gritty and industrial, with perhaps other workers or machinery in the distance. The colors should be bold and intense, conveying the raw energy of the drilling process. Overall, the painting should capture the rugged and intense nature of industrial work.",
+            "Paint a picture that captures the action of drilling, with a sense of motion and power? The painting should depict a large drilling machine in operation, perhaps at a construction site or oil rig. The drill should be shown boring into the ground or rock, with debris flying off in all directions. The colors should be intense and bold, with a sense of heat and energy emanating from the drill. The scene should convey a sense of purpose and determination, with the drilling machine symbolizing human ingenuity and the drive to push beyond our limits"]
 
-engine_idling = ["",
-                 "",
-                 "",
-                 ""]
+engine_idling = ["Paint a picture of an idle engine, conveying the stillness and calm of an object at rest? The engine should be the centerpiece of the painting, perhaps shown in close-up detail, with its various parts and components on display. The colors should be muted and tranquil, with a sense of quietude and peacefulness permeating the scene. You might consider depicting the engine in a garage or workshop setting, with tools and equipment in the background, to further convey a sense of stillness and introspection. The overall effect should be one of contemplation and serenity, celebrating the beauty and elegance of even the most mundane objects.",
+                 "Paint a picture of an idle engine, conveying a sense of stillness and quiet? The engine could be from a car, a plane, or a boat, and should be shown at rest, with no movement or signs of activity. The colors should be cool and muted, with perhaps a hint of rust or wear and tear, conveying the sense of a machine that has been used and has now come to a peaceful stop. The painting should convey a sense of calm and tranquility, perhaps evoking a moment of quiet reflection or introspection",
+                 "Paint a picture of an idle vehicle engine, capturing the intricate details and machinery in a moment of stillness? The engine could be from a car, truck, or motorcycle, and should be shown at rest, with no movement or signs of activity. The colors should be rich and warm, with a sense of depth and texture that conveys the complexity of the engine's parts. The painting should focus on the beauty of the machine itself, perhaps depicting the interplay of light and shadow across its surfaces, and conveying a sense of the machine's potential power even in its stillness.",
+                 "Paint a picture of an idle vehicle engine, conveying a Paint a picture of an idle vehicle engine, conveying sense of anticipation and potential energy? The engine could be from a car, a motorcycle, or a truck, and should be shown in close-up, with no other details distracting from its power and complexity. The colors should be rich and deep, with perhaps a hint of shimmer or sheen, conveying the sense of a machine waiting to be put to use. The painting should convey a sense of excitement and anticipation, perhaps evoking the feeling of a driver or rider waiting for the right moment to unleash the full power of the machine."]
 
-gun_shot = ["",
-            "",
-            "",
-            ""]
+gun_shot = ["I want you to paint me a picture of a gun being fired. ",
+            "Bullet being fired",
+            "Cop shooting a person",
+            "Gunshot"]
 
-jackhammer = ["",
-              "",
-              "",
-              ""]
+jackhammer = ["Paint a picture of a jackhammer in action, conveying a sense of power and force? The painting should depict a construction worker using the jackhammer to break through a thick layer of concrete or asphalt. The worker should be shown with muscles tensed and sweat glistening on their forehead, conveying the sense of physical exertion required to operate the tool. The colors should be bold and gritty, with a sense of dust and debris flying off in all directions. The scene should convey a sense of progress and determination, with the jackhammer symbolizing human ingenuity and the drive to overcome obstacles",
+              "Paint a picture of a jackhammer in action, conveying a sense of power and force? The jackhammer should be shown in close-up, with debris flying off in all directions as it pounds into the ground. The colors should be bold and dynamic, with a sense of heat and energy emanating from the machine. The scene should convey a sense of industrial might, with the jackhammer symbolizing the power of human innovation and determination. The painting should capture the intensity and relentlessness of the jackhammer's motion, perhaps evoking the feeling of being on a construction site with heavy machinery in action",
+              "Paint a picture that captures the power and energy of a jackhammer in action? The painting should depict a construction worker using a jackhammer to break up concrete or pavement, with the machine pounding into the ground and debris flying in all directions. The colors should be bold and intense, with a sense of heat and energy emanating from the jackhammer. The scene should convey a sense of hard work and determination, with the worker symbolizing the strength and ingenuity of human labor",
+              "Paint a picture of a jackhammer in action, with a sense of power and motion? The jackhammer should be shown breaking up concrete or asphalt, with debris flying off in all directions. The worker operating the jackhammer should be shown in the background, perhaps in silhouette or partially obscured by the dust and debris. The colors should be bold and intense, with a sense of heat and energy emanating from the jackhammer. The painting should convey a sense of strength and determination, capturing the hard work and perseverance required to break through barriers and overcome obstacles"]
 
-siren = ["",
-         "",
-         "",
-         ""] 
+siren = ["A siren made by a police car",
+         "A siren made by an ambulance",
+         "A siren made by a Fire truck",
+         "Police, Ambulance and Fire truck siren"] 
 
-street_music = ["",
-                "",
-                "",
-                ""]
+street_music = ["Paint a picture that captures the vibrant energy and joy of street music? The painting should depict a street performer playing an instrument or singing, surrounded by a crowd of people listening and enjoying the music. The colors should be bright and bold, conveying the sense of excitement and movement on the street. The scene should convey a sense of community and togetherness, with people from all walks of life coming together to enjoy the music. The painting should capture the feeling of a moment of shared happiness and celebration, and the power of music to bring people together.",
+                "Paint a picture that captures the joy and energy of street music? The painting should depict a scene with musicians playing their instruments on a busy city street corner, with people gathered around to listen and enjoy the music. The colors should be bright and lively, with a sense of movement and rhythm conveyed through the brushstrokes. The scene should capture the vibrancy and diversity of a bustling city, with different people and cultures coming together to share in the joy of music. The painting should convey a sense of community and connection, and the power of music to bring people together.",
+                "Paint a picture that captures the vibrant energy of street music? The painting should depict a street musician or group of musicians playing their instruments in a public space, perhaps in a bustling city square or on a charming cobblestone street. The colors should be warm and inviting, with a sense of joy and celebration emanating from the music. The scene should capture the diverse crowd of people stopping to listen and dance to the music, with perhaps a few local vendors or performers adding to the festive atmosphere. The painting should convey a sense of community and togetherness, with the power of music bringing people from all walks of life together in a shared experience of joy and beauty.",
+                "Paint a picture of a street musician playing music, with a sense of joy and celebration? The musician could be playing any type of instrument, perhaps a guitar, a saxophone, or a violin. The painting should depict a lively scene, with people stopping to listen and perhaps dancing along to the music. The colors should be warm and inviting, with perhaps a hint of dusk or sunset in the background, conveying the sense of a vibrant street scene. The painting should capture the energy and spontaneity of street music, and the sense of community that can be built around shared experiences of music and culture."]
 
 print(random.choice(air_conditioner))
 print(random.choice(children_playing))
