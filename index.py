@@ -147,7 +147,8 @@ def result():
         pred = extract_feature_and_print_prediction(oripath)
 
         os.environ['STABILITY_HOST'] = 'grpc.stability.ai:443'
-        os.environ['STABILITY_KEY'] = 'sk-dziZL2vhyQjbPguUDGwHvFcNQaUZzYmqvysyZ1YbNwKib7np'
+        # os.environ['STABILITY_KEY'] = 'YOUR_API_KEY_HERE'
+        os.environ['STABILITY_KEY'] = os.getkey('STABILITY_KEY')
 
         # Set up our connection to the API.
         stability_api = client.StabilityInference(
