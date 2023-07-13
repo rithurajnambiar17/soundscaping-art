@@ -147,7 +147,7 @@ def result():
         pred = extract_feature_and_print_prediction(oripath)
 
         os.environ['STABILITY_HOST'] = 'grpc.stability.ai:443'
-        os.environ['STABILITY_KEY'] = 'sk-<<API-KEY>>'
+        os.environ['STABILITY_KEY'] = 'sk-dziZL2vhyQjbPguUDGwHvFcNQaUZzYmqvysyZ1YbNwKib7np'
 
         # Set up our connection to the API.
         stability_api = client.StabilityInference(
@@ -168,6 +168,3 @@ def about():
 @app.route('/contact')
 def contact():
     return render_template('contact.html')
-
-if __name__ == '__main__':
-    app.run(debug=True)
